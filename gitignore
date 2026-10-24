@@ -1,0 +1,22 @@
+# Private notes and working docs (not published)
+docs/
+
+# KiCad backups, caches and lock files
+*-backups/
+*.kicad_prl
+*.lck
+\#auto_saved_files#
+_autosave-*
+fp-info-cache
+*.bak
+*-bak
+
+# Fabrication outputs (attach to GitHub releases instead)
+hardware/**/production/
+hardware/**/gerbers/
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
