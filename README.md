@@ -94,6 +94,10 @@ This design provides **functional isolation** for breaking ground loops and prot
 
 ## Licence
 
-Hardware: [CERN-OHL-S v2](https://ohwr.org/cern_ohl_s_v2.txt)
+Copyright davhodg 2026.
 
-<!-- Add the LICENSE file before making the repo public. If a CC-detect MCU is used, add firmware/ under MIT. -->
+This source describes Open Hardware and is licensed under the [CERN-OHL-S v2](LICENSE) (SPDX: `CERN-OHL-S-2.0`).
+
+You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2. This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
+
+<!-- If a CC-detect MCU is used, add firmware/ with its own MIT licence. -->
