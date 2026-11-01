@@ -115,8 +115,10 @@ Copyright davhodg 2026.
 
 | Part | Licence | SPDX |
 | --- | --- | --- |
-| Hardware (everything except `firmware/`) | [CERN-OHL-S v2](LICENSE) | `CERN-OHL-S-2.0` |
-| Firmware for the CC/CDP-detect MCU (`firmware/`) | [Apache License 2.0](firmware/LICENSE-Apache-2.0.txt) | `Apache-2.0` |
+| Hardware (everything except `firmware/`) | [CERN-OHL-S v2](LICENSES/CERN-OHL-S-2.0.txt) | `CERN-OHL-S-2.0` |
+| Firmware for the CC/CDP-detect MCU (`firmware/`) | [Apache License 2.0](LICENSES/Apache-2.0.txt) | `Apache-2.0` |
+
+Licensing follows the [REUSE](https://reuse.software/) specification: licence texts are in [LICENSES/](LICENSES/), and [REUSE.toml](REUSE.toml) maps each folder to its licence. Source files may also carry an `SPDX-License-Identifier` header. The root [LICENSE](LICENSE) is a copy of the CERN-OHL-S-2.0 text so GitHub shows the hardware licence.
 
 **Hardware:** this source describes Open Hardware and is licensed under the CERN-OHL-S v2. You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2. This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
 

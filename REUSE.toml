@@ -1,0 +1,16 @@
+version = 1
+SPDX-PackageName = "usb2-480mbps-isolator"
+SPDX-PackageDownloadLocation = "https://github.com/davhodg/usb2-480mbps-isolator"
+
+# Default: everything is hardware design documentation under CERN-OHL-S-2.0.
+[[annotations]]
+path = "**"
+SPDX-FileCopyrightText = "2026 davhodg"
+SPDX-License-Identifier = "CERN-OHL-S-2.0"
+
+# Firmware for the CC/CDP-detect MCU is Apache-2.0. When several annotations match, the last one wins;
+# a file's own SPDX header takes priority over both ("closest", the default).
+[[annotations]]
+path = "firmware/**"
+SPDX-FileCopyrightText = "2026 davhodg"
+SPDX-License-Identifier = "Apache-2.0"
