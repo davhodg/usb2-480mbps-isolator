@@ -89,7 +89,8 @@ Each will be compared on the same test: the highest output current that stays at
 ## Repository layout (planned)
 
 ```
-hardware/     KiCad project, BOM, Gerbers per release
+hardware/     KiCad project, BOM, Gerbers per release (CERN-OHL-S-2.0)
+firmware/     CC/CDP-detect MCU firmware (Apache-2.0)
 test/         Test procedures and results
 ```
 
@@ -112,8 +113,11 @@ This design provides **functional isolation** for breaking ground loops and prot
 
 Copyright davhodg 2026.
 
-This source describes Open Hardware and is licensed under the [CERN-OHL-S v2](LICENSE) (SPDX: `CERN-OHL-S-2.0`).
+| Part | Licence | SPDX |
+| --- | --- | --- |
+| Hardware (everything except `firmware/`) | [CERN-OHL-S v2](LICENSE) | `CERN-OHL-S-2.0` |
+| Firmware for the CC/CDP-detect MCU (`firmware/`) | [Apache License 2.0](firmware/LICENSE) | `Apache-2.0` |
 
-You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2. This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
+**Hardware:** this source describes Open Hardware and is licensed under the CERN-OHL-S v2. You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2. This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
 
-<!-- Add firmware/ for the CC/CDP-detect MCU, with its own MIT licence. -->
+**Firmware:** licensed under the Apache License, Version 2.0. You may not use the files in `firmware/` except in compliance with the License. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
