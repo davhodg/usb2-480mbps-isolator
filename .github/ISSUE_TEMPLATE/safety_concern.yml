@@ -1,0 +1,28 @@
+name: Safety concern
+description: Something here could be unsafe — an isolation claim, a creepage or clearance distance, a missing warning.
+labels: ["safety"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The design is **functional isolation only** and is not certified; see the Safety section of the README. Reports that something is unsafe, or is described as safer than it is, are taken first.
+
+  - type: textarea
+    id: concern
+    attributes:
+      label: The concern
+      description: What could go wrong, and under what conditions.
+    validations:
+      required: true
+
+  - type: textarea
+    id: where
+    attributes:
+      label: Where
+      description: File and section, a part, or a place on the board.
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: A standard clause, a datasheet rating, or a measurement, if you have one.

@@ -105,6 +105,10 @@ test/         Test procedures and results
 - [ ] Build and test rev A: data, power from each port type, ripple, load steps
 - [ ] Publish BOM with DigiKey and LCSC part numbers
 
+## Taking part
+
+Questions, ideas and measurements are welcome in [Discussions](https://github.com/davhodg/usb2-480mbps-isolator/discussions), and errors in [Issues](https://github.com/davhodg/usb2-480mbps-isolator/issues). Pull requests are limited to the maintainer while the design is still changing; describe a fix in an issue instead. See [CONTRIBUTING.md](CONTRIBUTING.md) and the [code of conduct](CODE_OF_CONDUCT.md).
+
 ## Safety
 
 This design provides **functional isolation** for breaking ground loops and protecting equipment during development. It has **not** been hipot tested or certified, and it must **not** be relied on for protection from hazardous voltages. The data isolator is reinforced-rated, but the board's overall rating depends on the power stage, creepage distances and layout, which are not qualified.
@@ -118,7 +122,7 @@ Copyright davhodg 2026.
 | Hardware (everything except `firmware/`) | [CERN-OHL-S v2](LICENSES/CERN-OHL-S-2.0.txt) | `CERN-OHL-S-2.0` |
 | Firmware for the CC/CDP-detect MCU (`firmware/`) | [Apache License 2.0](LICENSES/Apache-2.0.txt) | `Apache-2.0` |
 
-Licensing follows the [REUSE](https://reuse.software/) specification: licence texts are in [LICENSES/](LICENSES/), and [REUSE.toml](REUSE.toml) maps each folder to its licence. Source files may also carry an `SPDX-License-Identifier` header. The root [LICENSE](LICENSE) is a copy of the CERN-OHL-S-2.0 text so GitHub shows the hardware licence.
+Licensing follows the [REUSE](https://reuse.software/) specification: licence texts are in [LICENSES/](LICENSES/), and [REUSE.toml](REUSE.toml) maps each folder to its licence. The code of conduct is adapted from the Contributor Covenant under CC-BY-4.0. Source files may also carry an `SPDX-License-Identifier` header. The root [LICENSE](LICENSE) is a copy of the CERN-OHL-S-2.0 text so GitHub shows the hardware licence.
 
 **Hardware:** this source describes Open Hardware and is licensed under the CERN-OHL-S v2. You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2. This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
 

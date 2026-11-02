@@ -14,3 +14,9 @@ SPDX-License-Identifier = "CERN-OHL-S-2.0"
 path = "firmware/**"
 SPDX-FileCopyrightText = "2026 davhodg"
 SPDX-License-Identifier = "Apache-2.0"
+
+# The code of conduct is adapted from the Contributor Covenant 2.1, under CC-BY-4.0.
+[[annotations]]
+path = "CODE_OF_CONDUCT.md"
+SPDX-FileCopyrightText = "Contributor Covenant contributors <https://www.contributor-covenant.org>"
+SPDX-License-Identifier = "CC-BY-4.0"

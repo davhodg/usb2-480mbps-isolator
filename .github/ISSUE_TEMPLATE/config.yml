@@ -1,0 +1,10 @@
+# Blank issues are off, so every report arrives as one of the forms. The links
+# below appear in the same chooser, above them.
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question, suggest a part or share a measurement
+    url: https://github.com/davhodg/usb2-480mbps-isolator/discussions
+    about: Questions, ideas and results that aren't yet a clear problem in the repository.
+  - name: Read how to take part
+    url: https://github.com/davhodg/usb2-480mbps-isolator/blob/master/CONTRIBUTING.md
+    about: Issues and discussions are welcome; pull requests are limited to the maintainer for now.

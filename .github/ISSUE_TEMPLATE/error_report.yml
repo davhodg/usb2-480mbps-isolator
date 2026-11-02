@@ -1,0 +1,42 @@
+name: Error report
+description: Something in the repository is wrong — the README, a measurement, a calculation, or later the schematic, layout or BOM.
+labels: ["bug"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: File and section, or a link to the line.
+      placeholder: README.md, "Measured so far", 500 mA row
+    validations:
+      required: true
+
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong, and what it should be
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: A datasheet page, an app note, a calculation or your own measurement. For a measurement, give the instrument, the input voltage and the load.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Documentation
+        - Power stage
+        - Data path (ISOUSB211)
+        - Host current detection (CC / BC1.2)
+        - Schematic or layout
+        - BOM or parts
+        - Firmware
+        - Licensing
+        - Safety or isolation
+    validations:
+      required: true
