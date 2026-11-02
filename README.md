@@ -107,7 +107,7 @@ test/         Test procedures and results
 
 ## Taking part
 
-Questions, ideas and measurements are welcome in [Discussions](https://github.com/davhodg/usb2-480mbps-isolator/discussions), and errors in [Issues](https://github.com/davhodg/usb2-480mbps-isolator/issues). Pull requests are limited to the maintainer while the design is still changing; describe a fix in an issue instead. See [CONTRIBUTING.md](CONTRIBUTING.md) and the [code of conduct](CODE_OF_CONDUCT.md).
+Questions, ideas and measurements are welcome in [Discussions](https://github.com/davhodg/usb2-480mbps-isolator/discussions), and errors in [Issues](https://github.com/davhodg/usb2-480mbps-isolator/issues). Pull requests are limited to the maintainer while the design is still changing, and are likely to open up once the first sample boards are built or the firmware exists; until then, describe a fix in an issue. See [CONTRIBUTING.md](CONTRIBUTING.md) and the [code of conduct](CODE_OF_CONDUCT.md).
 
 ## Safety
 

@@ -14,7 +14,7 @@ Everyone taking part is asked to follow the [code of conduct](CODE_OF_CONDUCT.md
 
 ### Why no pull requests yet
 
-The design changes too quickly for outside changes to land cleanly, and keeping one author for now keeps the licensing simple while the layout settles. If you have a fix, describe it in an issue; it will be made and credited. This will be revisited once there is a rev A board.
+The design changes too quickly for outside changes to land cleanly, and keeping one author for now keeps the licensing simple while the layout settles. If you have a fix, describe it in an issue; it will be made and credited. Pull requests are likely to open up once the first sample boards are built or the firmware exists.
 
 ## Useful reports
 
